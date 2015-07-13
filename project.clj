@@ -1,9 +1,8 @@
-(defproject yogthos/iText "4.2.0"
+(defproject itext "4.2.0"
   :description "This is a build of the last LGPL/MPL version of iText."
   :url "https://github.com/yogthos/iText-4.2.0"
   :license {:name "GNU General Lesser Public License (LGPL) version 3.0"
-            :url "http://www.gnu.org/licenses/lgpl.html"
-            :comments "same as  iText and JFreeChart"}
+            :url "http://www.gnu.org/licenses/lgpl.html"}
   :dependencies [[bouncycastle/bctsp-jdk14 "138"]
                  [org.jfree/jfreechart "1.0.15"]
                  [com.lowagie/itext "4.2.1"]
