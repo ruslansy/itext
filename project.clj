@@ -3,10 +3,8 @@
   :url "https://github.com/yogthos/iText-4.2.0"
   :license {:name "GNU General Lesser Public License (LGPL) version 3.0"
             :url "http://www.gnu.org/licenses/lgpl.html"
-            :distribution :repo
             :comments "same as  iText and JFreeChart"}
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [bouncycastle/bctsp-jdk14 "138"]
+  :dependencies [[bouncycastle/bctsp-jdk14 "138"]
                  [org.jfree/jfreechart "1.0.15"]
                  [com.lowagie/itext "4.2.1"]
                  [org.apache.xmlgraphics/batik-gvt "1.7"]
