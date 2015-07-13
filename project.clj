@@ -15,7 +15,6 @@
                  [org.swinglabs/pdf-renderer "1.0.5"]]
 
   :java-source-paths ["src"]
-  ;:prep-tasks [["compile" "com.lowagie"] "javac" "compile"]
 
   :profiles {:uberjar {:aot :all}
              :dev {:dependencies [[junit "4.4"]
