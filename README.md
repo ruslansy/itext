@@ -1,4 +1,4 @@
-# iText is a Java PDF library originally dual licensed under MPL/LGPL #
+# itext is a fork of the iText Java PDF library version 4.2.0 dual licensed under MPL/LGPL #
 
 ## Background ##
 
@@ -11,3 +11,7 @@ Beginning with version 5.0 the developers have moved to the AGPL to improve thei
 ```sh
 lein install
 ```
+
+## License
+
+Distributed under the LGPL 3 license
