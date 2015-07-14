@@ -1,5 +1,5 @@
-(defproject itext "4.2.0"
-  :description "This is a build of the last LGPL/MPL version of iText."
+(defproject itext "4.2.1"
+  :description "This is a fork of the build of the last LGPL/MPL version of iText."
   :url "https://github.com/yogthos/iText-4.2.0"
   :license {:name "GNU General Lesser Public License (LGPL) version 3.0"
             :url "http://www.gnu.org/licenses/lgpl.html"}
@@ -11,8 +11,8 @@
                  [jfree/jfreechart "1.0.12"]
                  [org.swinglabs/pdf-renderer "1.0.5"]]
 
+  :javac-options ["-target" "1.6" "-source" "1.6"]
   :java-source-paths ["src"]
-
   :profiles {:uberjar {:aot :all}
              :dev {:dependencies [[junit "4.4"]
                                   [environ "0.5.0"]
